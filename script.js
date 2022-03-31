@@ -10,6 +10,9 @@ function removeElement() {
     for (let el of document.querySelectorAll('.all-clear')) el.style.visibility = 'visible';
     for (let el of document.querySelectorAll('.just-clear')) el.style.visibility = 'visible';
     screen.value='0'
+    currentNum = ''
+    prevNum = ''
+    operandNum = ''
 }
 
 //fungsi tombol OFF
